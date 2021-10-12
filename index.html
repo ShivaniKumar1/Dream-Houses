@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Shivani Kumar 02/14 -->
+<html lang = "en">
+
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream Houses</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- latest jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- latest compiled Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+<!-- Gotta include bootstrap nav links -->
+  <body>
+    <img src="./images/main.jpg" alt="House!" height="500" width="800">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand mb-0 h1">Dream Houses</span>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home Page</a></li>
+          <li><a href="html/product.html">Product</a></li>
+          <li><a href="html/contact.html">Contact Us</a></li>
+          <li><a href="html/carousel.html">Special Home</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+
+    <h1>Dream Houses</h1>
+    <!-- include address to tell users where we are located and our timings etc -->
+    <address>
+      Point of Contact: Zoha Bahna<a href="mailto:example@example.com"><span class="glyphicon glyphicon-envelope"></span></a><br>
+      Address: 1600 Altamonte Blvd,<br>
+      Los Angeles, California 32702<br>
+      Phone: 213-809-9562<br>
+      Fax Number: 83529184582<br>
+    </address>
+      <br>
+      <br>
+      <!-- Bootstrap tooltip -->
+      <a href="#" data-toggle="tooltip" title="Everyday over email!">Hours of Operation:</a>
+      <dl>
+        <dt>M-F:</dt>
+        <dd>8 am - 5 pm</dd>
+        <dt>Saturday:</dt>
+        <dd>10 am - 4 pm</dd>
+        <dt>Sunday:</dt>
+        <dd>Closed</dd>
+      </dl>
+      <br>
+      <h2 class = "title">Welcome to Your Dream Home!</h2>
+      <!-- include a small paragraph to tell user what we are and what we do -->
+      <p>Check out the video below to see the beautiful houses we offer. Also be sure
+        to check out our Products page to see our top selling houses and some information
+        about them. If you go to our Contact Us page, you can send us an email or fill
+        out the form to learn more about the houses we offer. We're so glad you chose us
+        to help you find the perfect home for you!</p>
+
+        <!-- video made by Shivani Kumar about the houses that are being sold -->
+      <div class = "video">
+  			<video width="900" height="650" controls>
+          <!-- audio is included in the video -->
+  			  <source src="video/video.mov" type="video/mp4">
+  			  Your browser does not support the video tag.
+  			</video>
+  		</div>
+      <br>
+
+      <!-- include customer references! (i hope this is not illegal lol)-->
+    <h2>What Our Customers Have to Say</h2>
+    <pre>
+      <q cite = "https://lol.com"><i>This company has helped me find a dream house everytime I have wanted to go on vacation.
+        My family and I love working with them!</i> - Jeannie Thomas</q>
+    <br>
+      <q cite = "https://lol.com"><i>Excellent customer service! I've never had a problem in any of the dream houses I have rented.
+      I even rented one for a whole year and they gave me the last month for free. I've never worked
+      with a company that has been as amazing as Dream Houses.</i> - Andrew Willson</q>
+    </pre>
+    <footer> &#169; 2021 Dream House Inc.</footer>
+  </body>
+</html>

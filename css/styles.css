@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+/* background: set color of page and specific tab elements */
+body {
+  background-color: #fff;
+}
+address, pre, section {
+  background-color: #fdcdc9;
+}
+
+/* font: set color, font, and size */
+footer {
+  color: #88601F;
+}
+address {
+  font-family: sans-serif, Arial, Helvetica;
+}
+h2 {
+  font-size: 25px;
+}
+/* third css class id */
+#info {
+  font-size: 18px;
+  background-color: #fdcdc9;
+}
+
+/* seting style of font and boldness of font for different tag elements in the page */
+h1 {
+  font-family: serif, Arial, sans-serif;
+  font-size: 35px;
+  color: #88601F;
+}
+b {
+  font-size: 15px;
+  color: #882C1F;
+}
+strong {
+  font-weight: 900;
+}
+b {
+  font-weight: 800;
+}
+
+/* dark blue */
+a:link {
+  color: #1F4788;
+}
+/* turquoise */
+a:visited {
+  color: #1F886F;
+}
+/* purple */
+a:hover {
+  color: #511F88;
+  font-size: 20px;
+}
+/* dark pink */
+a:active {
+  color: #881F65;
+}
+
+/* default marker for the list used */
+ul {
+  list-style-type: square;
+}
+
+/* first css class attribute */
+/* add a box shadow to video and a text shadow to the index page title */
+.video {
+  box-shadow: 10px 10px 10px 10px #888888;
+  width: 63.1%;
+  background-color: #88601F;
+}
+/* second css class attribute */
+.title {
+  text-shadow: 2px 2px #888888;
+}
+
+/* first css class id */
+/* modify one of your images using the 2d or 3d transform style */
+#family:hover {
+  transform: scale(0.5,0.5);
+}
+
+/* round the corners of a section */
+section {
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+/* second css class id */
+/* adding color gradient to sale sign and border image to family image */
+#sale {
+  font-size: 50px;
+  background: linear-gradient(to right, yellow,orange,red);
+  width: 200px;
+}
+#family {
+  width: 650px;
+  border: 10px solid;
+  padding: 15px;
+  border-image: url(https://resources.zybooks.com/WebProgramming/borderv1.png) 30 stretch;
+}
+
+/* third css class attribute */
+/* adding an animation to submit button */
+.button {
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  border: solid 2px red;
+  box-shadow: 2px 2px 3px;
+  border-radius: 10px;
+  background: radial-gradient(white, #bbb);
+  transition: all 100ms ease-in-out;
+  animation-name: move;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+/* keyframe list */
+@keyframes move {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(5deg);}
+  50% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+.button:hover {
+  transform: scale(1.05, 1.05);
+  color: red;
+  cursor: pointer;
+}
+.button:active {
+  background: radial-gradient(#ddd, #999);
+}
+
+/* add box sizing to pages: this will allow all elements to be sized in a more intuitive way. */
+* {
+  box-sizing: border-box;
+}

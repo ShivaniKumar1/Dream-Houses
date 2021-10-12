@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- Shivani Kumar 04/13-->
+<html lang = "en">
+
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Special Home</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- creating style for the carousel pictures -->
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand mb-0 h1">Dream Houses</span>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home Page</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="active"><a href="carousel.html">Special Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br><br><br><br><br>
+    <!-- gotta maintain the style throughout website -->
+    <section>
+    <h1>Dream Houses</h1>
+    <p>Here we have one of our famous houses that everyone loves to stay at!
+      It is located in San Francisco, CA and has 6 bedrooms and 7.5 bathrooms.
+      It has marble-countertops, hardwood floors throughout entire house. Ceiling to
+      floor windows, and stainless steel appliances. It is the best house that we have
+      in stock. It has a private backyard that has one pool as well as a jacuzzi.
+      We also have a grill in the backyard for family barbeques and big gatherings. There is
+      also a lot of space for your pets to roam around! This house is open to tour if you'd like
+      to come see it. </p>
+    </section>
+
+    <div class="container">
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators for carousel -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+
+        </ol>
+
+        <!-- wrapper for the slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../images/shouse1.jpeg" alt="topview" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Top View</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse2.jpeg" alt="frontview" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Front View</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse3.jpeg" alt="backview" width="300" height="622">
+            <div class="carousel-caption">
+              <h3>Back View</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse4.jpeg" alt="sideview" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Side View</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse5.jpeg" alt="innerview" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Inner View</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse6.jpeg" alt="office" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Office Area</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse7.jpeg" alt="stair" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Stair Case</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../images/shouse8.jpeg" alt="bedroom" width="380" height="622">
+            <div class="carousel-caption">
+              <h3>Bedroom View</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- the left and right controls that are used to navigate-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
